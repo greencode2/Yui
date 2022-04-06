@@ -120,19 +120,18 @@ This is @Levi_Chatbot
 
 This bot inspired from Character Captain Levi from Attack on Titan Anime. I am 18 Year old chat bot. You can send me Hii or Hello & Start to chatting with me as a Normal person...
 
-**Made with ❤️ by @dhruv_lathia**
+**🔰 Developer information**
 
+**Name** : `Dhruv`
+**Full name** : `Dhruv Lathia`
+**Age** : `17`
+**Birthdate** : `30/04/2005`
+**Birthplace** : `India - Gujarat`
+**Education** : `Diploma Computer Engineering`
+**College** : `B & B Institute of Technology`
+**Instagram** : instagram.com/dhruv_lathia
 
-**🔰 Developer information**\n\n
-**Name** : `Dhruv`\n
-**Full name** : `Dhruv Lathia`\n
-**Age** : `17`\n
-**Birthdate** : `30/04/2005`\n
-**Birthplace** : `India - Gujarat`\n
-**Education** : `Diploma Computer Engineering`\n
-**College** : `B & B Institute of Technology`\n
-**Instagram** : instagram.com/dhruv_lathia\n\n
-**Contact him for more info ⤵️**\n
+**Contact him for more info ⤵️**
 🔰 PM allowed - @dhruv_lathia 😇
 
 
