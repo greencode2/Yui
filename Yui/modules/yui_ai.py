@@ -106,24 +106,38 @@ To set an engine use `/engine` command followed by the engine code name you want
             await message.reply(await yui_base.emergency_pick())
 
 
+# About
+@yuiai.on_message(filters.command("about"))
+async def help_yui(_, message: Message):
+    help_msg = """
+**🔰 Developer information**
+**Name** : `Dhruv`
+**Full name** : `Dhruv Lathia`
+**Age** : `17`
+**Birthdate** : `30/04/2005`
+**Birthplace** : `India - Gujarat`
+**Education** : `Diploma Computer Engineering`
+**College** : `B & B Institute of Technology`
+**Instagram** : instagram.com/dhruv_lathia
+**Contact him for more info ⤵️**
+🔰 PM allowed - @dhruv_lathia 😇
+"""
+    await message.reply(help_msg, reply_to_message_id=message.message_id)
+
+
+
 # Help
 @yuiai.on_message(filters.command("help"))
 async def help_yui(_, message: Message):
     help_msg = """
 **✨ Help Section**
-
-
-**How to change OpenAI engine 🤔?**
-    - To change OpenAI Engine use `/engine` command followed by the engine name. For more info send /engine command
-
-**How to ban someone from Bot 🤔?**
-    - This is a chat bot tho. Why you need to ban someone? If it's necessary use "banable" branch and send `/ban` command (Only for Heroku Users)
-
-
-**Made with ❤️ by @NexaBotsUpdates**
+Hello there,
+This is @Levi_Chatbot
+This bot inspired from Character Captain Levi from Attack on Titan Anime. I am 18 Year old chat bot. You can send me Hii or Hello & Start to chatting with me as a Normal person...
+**Made with ❤️ by @dhruv_lathia**
+__Send /about command for more information about @dhruv_lathia__
 """
     await message.reply(help_msg, reply_to_message_id=message.message_id)
-
 
 # Restart Heroku App
 @yuiai.on_message(filters.command("restart"))
