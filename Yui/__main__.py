@@ -5,5 +5,5 @@ from . import yuiai
 
 if __name__ == "__main__" :
     yuiai.start()
-    print("Captain Levi is live! Report issues at @dhruv_lathia)
+    print("Captain Levi is live! Report issues at @dhruv_lathia")
     idle()
