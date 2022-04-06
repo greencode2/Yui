@@ -108,7 +108,7 @@ To set an engine use `/engine` command followed by the engine code name you want
 # About
 @yuiai.on_message(filters.command("about"))
 async def help_yui(_, message: Message):
-    about_msg = """
+    help_msg = """
 **🔰 Developer information**
 
 **Name** : `Dhruv`
@@ -123,7 +123,7 @@ async def help_yui(_, message: Message):
 **Contact him for more info ⤵️**
 🔰 PM allowed - @dhruv_lathia 😇
 """
-    await message.reply(about_msg, reply_to_message_id=message.message_id)
+    await message.reply(help_msg, reply_to_message_id=message.message_id)
 
 
 
