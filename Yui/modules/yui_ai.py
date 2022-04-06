@@ -105,27 +105,7 @@ To set an engine use `/engine` command followed by the engine code name you want
         except:
             await message.reply(await yui_base.emergency_pick())
 
-# About
-@yuiai.on_message(filters.command("about") & ~filters.edited)
-async def repo(_, message):
-    await message.reply_text(
-        """
-**🔰 Developer information**\n\n
 
-**Name** : `Dhruv`\n
-**Full name** : `Dhruv Lathia`\n
-**Age** : `17`\n
-**Birthdate** : `30/04/2005`\n
-**Birthplace** : `India - Gujarat`\n
-**Education** : `Diploma Computer Engineering`\n
-**College** : `B & B Institute of Technology`\n
-**Instagram** : instagram.com/dhruv_lathia\n\n
-
-**Contact him for more info ⤵️**\n
-🔰 PM allowed - @dhruv_lathia 😇
-"""
-        
-    )
 
 
 
@@ -133,7 +113,7 @@ async def repo(_, message):
 @yuiai.on_message(filters.command("help"))
 async def help_yui(_, message: Message):
     help_msg = """
-**✨ Help Section**
+**⁉️ Help Section**
 
 Hello there,
 This is @Levi_Chatbot
@@ -142,7 +122,20 @@ This bot inspired from Character Captain Levi from Attack on Titan Anime. I am 1
 
 **Made with ❤️ by @dhruv_lathia**
 
-__Send /about command for more information about @dhruv_lathia__
+
+**🔰 Developer information**\n\n
+**Name** : `Dhruv`\n
+**Full name** : `Dhruv Lathia`\n
+**Age** : `17`\n
+**Birthdate** : `30/04/2005`\n
+**Birthplace** : `India - Gujarat`\n
+**Education** : `Diploma Computer Engineering`\n
+**College** : `B & B Institute of Technology`\n
+**Instagram** : instagram.com/dhruv_lathia\n\n
+**Contact him for more info ⤵️**\n
+🔰 PM allowed - @dhruv_lathia 😇
+
+
 """
     await message.reply(help_msg, reply_to_message_id=message.message_id)
 
