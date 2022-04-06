@@ -109,9 +109,22 @@ To set an engine use `/engine` command followed by the engine code name you want
 @yuiai.on_message(filters.command("about") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "**🔰 Developer information**\n\n**Name** : `Dhruv`\n**Full name** : `Dhruv Lathia`\n**Age** : `17`\n**Birthdate** : `30/04/2005`\n**Birthplace** : `India - Gujarat`\n**Education** : `Diploma Computer Engineering`\n**College** : `B & B Institute of Technology`\n**Instagram** : instagram.com/dhruv_lathia\n\n**Contact him for more info ⤵️**\n🔰 PM allowed - @dhruv_lathia 😇
-",
-        disable_web_page_preview=True,
+        """
+**🔰 Developer information**\n\n
+
+**Name** : `Dhruv`\n
+**Full name** : `Dhruv Lathia`\n
+**Age** : `17`\n
+**Birthdate** : `30/04/2005`\n
+**Birthplace** : `India - Gujarat`\n
+**Education** : `Diploma Computer Engineering`\n
+**College** : `B & B Institute of Technology`\n
+**Instagram** : instagram.com/dhruv_lathia\n\n
+
+**Contact him for more info ⤵️**\n
+🔰 PM allowed - @dhruv_lathia 😇
+"""
+        
     )
 
 
