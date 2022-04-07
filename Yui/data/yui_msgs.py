@@ -1,5 +1,9 @@
 # Copyright (c) 2021 Itz-fork
 
+About_Developer = [
+    "**🔰 Developer information**\n\n**Name** : `Dhruv`\n**Full name** : `Dhruv Lathia`\n**Age** : `17`\n**Birthdate** : `30/04/2005`\n**Birthplace** : `India - Gujarat`\n**Education** : `Diploma Computer Engineering`\n**College** : `B & B Institute of Technology`\n**Instagram** : instagram.com/dhruv_lathia\n\n**Contact him for more info ⤵️**\n🔰 PM allowed - @dhruv_lathia 😇"
+]
+
 Emergency_Msgs = [
     "I'm not feeling well. I think i should go and sleep now.",
     "I have some work to do. Bye!",
