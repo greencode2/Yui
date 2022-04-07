@@ -106,9 +106,9 @@ To set an engine use `/engine` command followed by the engine code name you want
             await message.reply(await yui_base.emergency_pick())
 
 
-@yuiai.on_message(filters.command("about"))
-async def about_dev(_, message: Message):
-await message.reply(await yui_base.about_dev())
+#@yuiai.on_message(filters.command("about"))
+#async def about_dev(_, message: Message):
+#await message.reply(await yui_base.about_dev())
 
 # Help
 @yuiai.on_message(filters.command("help"))
