@@ -116,10 +116,7 @@ async def help_yui(_, message: Message):
     help_msg = """
 **⁉️ Help Section**
 
-Hello {username},
-{mention} {user_id} {selected_engine} {user_name} {firstname} 
-
-
+Hello there,
 This is @Levi_Chatbot
 
 This bot inspired from Character Captain Levi from Attack on Titan Anime. I am 18 Year old chat bot. You can send me Hii or Hello & Start to chatting with me as a Normal person...
