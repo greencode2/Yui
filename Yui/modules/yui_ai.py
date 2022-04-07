@@ -24,7 +24,7 @@ async def talk_with_yui(_, message: Message):
     # For Public and private groups
     elif c_type == "supergroup" or "group":
         # Regex to find if "yui" or "Yui" in the message text
-        if message.text and re.search(r'\bYui|yui\b', message.text):
+        if message.text and re.search(r'\bLevi|levi\b', message.text):
             quiz_text = message.text
         # For replied message
         elif r_msg:
@@ -106,8 +106,9 @@ To set an engine use `/engine` command followed by the engine code name you want
             await message.reply(await yui_base.emergency_pick())
 
 
-
-
+@yuiai.on_message(filters.command("about"))
+async def about_dev(_, message: Message):
+await message.reply(await yui_base.about_dev())
 
 # Help
 @yuiai.on_message(filters.command("help"))
