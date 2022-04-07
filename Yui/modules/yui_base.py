@@ -89,6 +89,9 @@ class Yui_Base():
                 return
         except Exception as e:
             print(f"Error: {e}")
+
+    async def about_dev(self):
+        return choice(About_Developer)
     
     async def emergency_pick(self):
         return choice(Emergency_Msgs)
